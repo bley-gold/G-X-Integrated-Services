@@ -121,7 +121,7 @@ export default function AboutPage() {
                   <Heart className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white">Integrity</h3>
-                <p className="text-gray-600 group-hover:text-gray-200">
+                <p className="text-gray-600 group-hover:text-white">
                   Conducting all business with transparency and honesty, building trust through ethical practices.
                 </p>
               </div>
@@ -131,7 +131,7 @@ export default function AboutPage() {
                   <Award className="w-8 h-8 text-white" />
                 </div>
                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Excellence</h3>
-                <p className="text-gray-600 group-hover:text-gray-200">
+                <p className="text-gray-600 group-hover:text-white">
                   Striving to exceed client expectations in every project, delivering superior quality results.
                 </p>
               </div>
@@ -141,7 +141,7 @@ export default function AboutPage() {
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Innovation</h3>
-                <p className="text-gray-600 group-hover:text-gray-200">
+                <p className="text-gray-600 group-hover:text-white">
                   Adopting modern tools and approaches to stay ahead of industry trends and challenges.
                 </p>
               </div>
@@ -151,7 +151,7 @@ export default function AboutPage() {
                   <Users className="w-8 h-8 text-white" />
                 </div>
                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Collaboration</h3>
-                <p className="text-gray-600 group-hover:text-gray-200">
+                <p className="text-gray-600 group-hover:text-white">
                   Fostering teamwork and open communication to achieve the best outcomes for all stakeholders.
                 </p>
               </div>
@@ -161,7 +161,7 @@ export default function AboutPage() {
                   <Heart className="w-8 h-8 text-white" />
                 </div>
                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Sustainability</h3>
-                <p className="text-gray-600 group-hover:text-gray-200">
+                <p className="text-gray-600 group-hover:text-white">
                   Considering environmental and social impacts in all operations for a better future.
                 </p>
               </div>

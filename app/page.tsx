@@ -257,6 +257,157 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Reviews Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <AnimatedSection>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gx-navy mb-6 sm:mb-8 text-center relative">
+                What Our Clients Say
+                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-gx-teal to-gx-electric-blue rounded-full"></span>
+              </h2>
+              <p className="text-base sm:text-lg md:text-xl text-center text-gray-600 mb-12 sm:mb-16 max-w-3xl mx-auto">
+                Hear from our satisfied clients across South Africa who trust us with their projects.
+              </p>
+            </AnimatedSection>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              <AnimatedSection animation="fade-up">
+                <Card className="h-full border-0 shadow-lg hover:shadow-[0_0_30px_rgba(0,212,170,0.4)] transition-all duration-500 hover:-translate-y-3 hover:scale-105 bg-gradient-to-br from-white to-blue-50/30">
+                  <CardContent className="p-6 sm:p-8">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 bg-gx-teal rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                        T
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gx-navy">Thabo Mthembu</h4>
+                        <p className="text-sm text-gray-600">Construction Manager, Johannesburg</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      "GX Integrated Services delivered our office complex project on time and within budget. Their project management expertise is exceptional."
+                    </p>
+                    <div className="flex text-gx-teal">
+                      ★★★★★
+                    </div>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fade-up">
+                <Card className="h-full border-0 shadow-lg hover:shadow-[0_0_30px_rgba(0,212,170,0.4)] transition-all duration-500 hover:-translate-y-3 hover:scale-105 bg-gradient-to-br from-white to-blue-50/30">
+                  <CardContent className="p-6 sm:p-8">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 bg-gx-teal rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                        N
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gx-navy">Nomsa Dlamini</h4>
+                        <p className="text-sm text-gray-600">Property Developer, Cape Town</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      "Their real estate management services transformed our property portfolio. Professional, reliable, and results-driven."
+                    </p>
+                    <div className="flex text-gx-teal">
+                      ★★★★★
+                    </div>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fade-up">
+                <Card className="h-full border-0 shadow-lg hover:shadow-[0_0_30px_rgba(0,212,170,0.4)] transition-all duration-500 hover:-translate-y-3 hover:scale-105 bg-gradient-to-br from-white to-blue-50/30">
+                  <CardContent className="p-6 sm:p-8">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 bg-gx-teal rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                        S
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gx-navy">Sipho Ndaba</h4>
+                        <p className="text-sm text-gray-600">Operations Director, Durban</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      "Outstanding procurement services that saved us 20% on costs while improving quality. Highly recommend GX Integrated Services."
+                    </p>
+                    <div className="flex text-gx-teal">
+                      ★★★★★
+                    </div>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fade-up">
+                <Card className="h-full border-0 shadow-lg hover:shadow-[0_0_30px_rgba(0,212,170,0.4)] transition-all duration-500 hover:-translate-y-3 hover:scale-105 bg-gradient-to-br from-white to-blue-50/30">
+                  <CardContent className="p-6 sm:p-8">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 bg-gx-teal rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                        L
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gx-navy">Lerato Molefe</h4>
+                        <p className="text-sm text-gray-600">CEO, Pretoria Manufacturing</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      "From planning to execution, GX handled our factory expansion flawlessly. Their attention to detail is remarkable."
+                    </p>
+                    <div className="flex text-gx-teal">
+                      ★★★★★
+                    </div>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fade-up">
+                <Card className="h-full border-0 shadow-lg hover:shadow-[0_0_30px_rgba(0,212,170,0.4)] transition-all duration-500 hover:-translate-y-3 hover:scale-105 bg-gradient-to-br from-white to-blue-50/30">
+                  <CardContent className="p-6 sm:p-8">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 bg-gx-teal rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                        M
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gx-navy">Mandla Khumalo</h4>
+                        <p className="text-sm text-gray-600">Retail Chain Owner, Bloemfontein</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      "Their procurement team secured better suppliers at lower costs. Our partnership continues to grow stronger each year."
+                    </p>
+                    <div className="flex text-gx-teal">
+                      ★★★★★
+                    </div>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fade-up">
+                <Card className="h-full border-0 shadow-lg hover:shadow-[0_0_30px_rgba(0,212,170,0.4)] transition-all duration-500 hover:-translate-y-3 hover:scale-105 bg-gradient-to-br from-white to-blue-50/30">
+                  <CardContent className="p-6 sm:p-8">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 bg-gx-teal rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                        Z
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gx-navy">Zanele Mahlangu</h4>
+                        <p className="text-sm text-gray-600">Hotel Owner, Port Elizabeth</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      "Excellent property management services. They handle everything professionally while maximizing our rental income."
+                    </p>
+                    <div className="flex text-gx-teal">
+                      ★★★★★
+                    </div>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 sm:py-20 bg-cyber-gradient text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">

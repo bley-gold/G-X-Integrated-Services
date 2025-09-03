@@ -12,8 +12,8 @@ export function HeroSection() {
     <section id="hero" className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
-          alt="Professional business meeting discussing project management and procurement strategies"
+          src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg"
+          alt="Professional Black business team discussing project management and procurement strategies"
           fill
           className="object-cover"
           priority
