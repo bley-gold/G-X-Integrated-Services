@@ -105,70 +105,83 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6 lg:px-8">
-          <AnimatedSection>
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-gx-navy mb-6">
-                Our <span className="text-gx-teal">Core Values</span>
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">The principles that guide everything we do</p>
-            </div>
+<section className="py-20 bg-white">
+  <div className="container mx-auto px-6 lg:px-8">
+    <AnimatedSection>
+      <div className="text-center mb-16">
+        <h2 className="text-4xl md:text-5xl font-bold text-gx-navy mb-6">
+          Our <span className="text-gx-teal">Core Values</span>
+        </h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          The principles that guide everything we do
+        </p>
+      </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
-                <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <Heart className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white">Integrity</h3>
-                <p className="text-gray-600 group-hover:text-white">
-                  Conducting all business with transparency and honesty, building trust through ethical practices.
-                </p>
-              </div>
-
-              <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
-                <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <Award className="w-8 h-8 text-white" />
-                </div>
-               <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Excellence</h3>
-                <p className="text-gray-600 group-hover:text-white">
-                  Striving to exceed client expectations in every project, delivering superior quality results.
-                </p>
-              </div>
-
-              <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
-                <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <TrendingUp className="w-8 h-8 text-white" />
-                </div>
-               <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Innovation</h3>
-                <p className="text-gray-600 group-hover:text-white">
-                  Adopting modern tools and approaches to stay ahead of industry trends and challenges.
-                </p>
-              </div>
-
-              <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
-                <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <Users className="w-8 h-8 text-white" />
-                </div>
-               <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Collaboration</h3>
-                <p className="text-gray-600 group-hover:text-white">
-                  Fostering teamwork and open communication to achieve the best outcomes for all stakeholders.
-                </p>
-              </div>
-
-              <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
-                <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <Heart className="w-8 h-8 text-white" />
-                </div>
-               <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Sustainability</h3>
-                <p className="text-gray-600 group-hover:text-white">
-                  Considering environmental and social impacts in all operations for a better future.
-                </p>
-              </div>
-            </div>
-          </AnimatedSection>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
+          <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <Heart className="w-8 h-8 text-white" />
+          </div>
+          <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white">
+            Integrity
+          </h3>
+          <p className="text-gray-600 group-hover:text-white">
+            Conducting all business with transparency and honesty, building trust through ethical practices.
+          </p>
         </div>
-      </section>
+
+        <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
+          <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <Award className="w-8 h-8 text-white" />
+          </div>
+          <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">
+            Excellence
+          </h3>
+          <p className="text-gray-600 group-hover:text-white">
+            Striving to exceed client expectations in every project, delivering superior quality results.
+          </p>
+        </div>
+
+        <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
+          <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <TrendingUp className="w-8 h-8 text-white" />
+          </div>
+          <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">
+            Innovation
+          </h3>
+          <p className="text-gray-600 group-hover:text-white">
+            Adopting modern tools and approaches to stay ahead of industry trends and challenges.
+          </p>
+        </div>
+
+        <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
+          <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <Users className="w-8 h-8 text-white" />
+          </div>
+          <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">
+            Collaboration
+          </h3>
+          <p className="text-gray-600 group-hover:text-white">
+            Fostering teamwork and open communication to achieve the best outcomes for all stakeholders.
+          </p>
+        </div>
+
+        <div className="group bg-gray-50 p-8 rounded-lg hover:bg-gx-navy hover:text-white transition-all duration-500 hover:scale-105">
+          <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <Heart className="w-8 h-8 text-white" />
+          </div>
+          <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">
+            Sustainability
+          </h3>
+          <p className="text-gray-600 group-hover:text-white">
+            Considering environmental and social impacts in all operations for a better future.
+          </p>
+        </div>
+      </div>
+    </AnimatedSection>
+  </div>
+</section>
+
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-gx-navy to-gx-teal text-white">
