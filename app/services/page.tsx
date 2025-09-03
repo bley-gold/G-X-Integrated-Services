@@ -3,11 +3,13 @@ import { AnimatedSection } from "@/components/animated-section"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Building2, Users, Home, CheckCircle, Clock, Shield, Target } from "lucide-react"
 import Link from "next/link"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function ServicesPage() {
   return (
     <div className="min-h-screen">
       <Navigation />
+      <WhatsAppButton />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-gx-navy via-gx-navy to-gx-teal text-white">

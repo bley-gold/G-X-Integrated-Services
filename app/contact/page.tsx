@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Phone, Mail, Clock, Send, MessageSquare } from "lucide-react"
 import { useState } from "react"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -37,6 +38,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen">
       <Navigation />
+      <WhatsAppButton />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-gx-navy via-gx-navy to-gx-teal text-white">

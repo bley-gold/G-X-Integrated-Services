@@ -3,11 +3,13 @@ import { AnimatedSection } from "@/components/animated-section"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Target, Eye, Heart, Users, Award, TrendingUp, CheckCircle } from "lucide-react"
 import Link from "next/link"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen">
       <Navigation />
+      <WhatsAppButton />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-gx-navy via-gx-navy to-gx-teal text-white">
@@ -128,7 +130,7 @@ export default function AboutPage() {
                 <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Award className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white">Excellence</h3>
+               <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Excellence</h3>
                 <p className="text-gray-600 group-hover:text-gray-200">
                   Striving to exceed client expectations in every project, delivering superior quality results.
                 </p>
@@ -138,7 +140,7 @@ export default function AboutPage() {
                 <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white">Innovation</h3>
+               <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Innovation</h3>
                 <p className="text-gray-600 group-hover:text-gray-200">
                   Adopting modern tools and approaches to stay ahead of industry trends and challenges.
                 </p>
@@ -148,7 +150,7 @@ export default function AboutPage() {
                 <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Users className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white">Collaboration</h3>
+               <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Collaboration</h3>
                 <p className="text-gray-600 group-hover:text-gray-200">
                   Fostering teamwork and open communication to achieve the best outcomes for all stakeholders.
                 </p>
@@ -158,7 +160,7 @@ export default function AboutPage() {
                 <div className="w-16 h-16 bg-gx-teal rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Heart className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white">Sustainability</h3>
+               <h3 className="text-2xl font-bold mb-4 text-gx-navy group-hover:text-white transition-colors duration-500">Sustainability</h3>
                 <p className="text-gray-600 group-hover:text-gray-200">
                   Considering environmental and social impacts in all operations for a better future.
                 </p>
