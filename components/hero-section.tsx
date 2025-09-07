@@ -12,7 +12,7 @@ export function HeroSection() {
     <section id="hero" className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg"
+          src="https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg"
           alt="Professional Black business team discussing project management and procurement strategies"
           fill
           className="object-cover"
