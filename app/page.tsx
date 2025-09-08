@@ -187,7 +187,7 @@ export default function HomePage() {
                 <Card className="overflow-hidden border-0 shadow-lg hover:shadow-[0_0_35px_rgba(0,212,170,0.5)] transition-all duration-500 group hover:-translate-y-3 hover:scale-105">
                   <div className="h-32 sm:h-40 md:h-48 relative overflow-hidden">
                     <Image
-                      src="https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg"
+                      src="https://images.pexels.com/photos/8369218/pexels-photo-8369218.jpeg"
                       alt="Business professionals analyzing procurement data and supply chain logistics"
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
