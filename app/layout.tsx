@@ -21,6 +21,15 @@ export const metadata: Metadata = {
   description:
     "Integrating Projects, Procurement & Property - Seamlessly. Professional services in project management, procurement, and real estate management.",
   generator: "v0.app",
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 }
 
 export default function RootLayout({
